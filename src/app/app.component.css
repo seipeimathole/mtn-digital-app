@@ -1,0 +1,67 @@
+
+ nav {
+  /* height:80px; */
+  font-size: 14px;
+  font-family: verdana;
+  background-color: #fff;
+  padding-left: 10%;
+  box-shadow: 2px 2px 8px 0 rgba(45,35,35,.2);
+}
+
+/* nav .col-2, nav .col-6 {
+  position:relative;
+} */
+
+/*nav .col-4 ul {
+  margin-left:10px;
+} */
+
+.top-row {
+ height: 8px;
+ background-color: #333;
+}
+
+.top-row span {
+  height: 8px;
+  background-color:#ffcc00;
+  width: 100px;
+  display: block
+}
+
+.mtn-logo {
+  width:88px;
+  height:88px;
+ /*float:inline-start;
+    position:absolute;
+  right:0px; */
+  /* margin-top:10px; */
+  top:0px;
+  padding:2px;
+  border: #fff 1px solid;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px 0 rgba(45,35,35,.2);
+}
+
+.mtn-logo img {
+   width: 100%;
+}
+
+.mtn-search {
+  padding-right:0%;
+   /* position:absolute; */
+   /* right:0px; */
+}
+
+.mtn-search a {
+  text-decoration: none;
+  color:#000;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+
+.dot {
+   color:#ffcc00;
+   display:inline-block;
+}
+

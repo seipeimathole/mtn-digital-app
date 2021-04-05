@@ -1,0 +1,22 @@
+<section class="carousel-card">
+  <div class="container">
+    <div class="row">
+      <div [ngClass]="item.current? 'col-4': 'col-2' " *ngFor="let item of carousel">
+
+        <div class="card align-items-center">
+          <img src="../assets/{{item.img}}">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-title-start" *ngIf="item.current">{{item.subtitleText}} <i class="bi bi-chevron-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <a class="left-arrow" (click)="prevElement()"><i class="bi bi-chevron-left"></i></a>
+      <a class="right-arrow" (click)="nextElement()"><i class="bi bi-chevron-right"></i></a>
+    </div>
+  </div>
+</section>
+
