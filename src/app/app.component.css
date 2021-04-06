@@ -32,11 +32,8 @@ nav .col-4 ul {
 .mtn-logo {
   width:88px;
   height:88px;
- /*float:inline-start;
-    position:absolute;
-  right:0px; */
-  /* margin-top:10px; */
-  top:0px;
+  position:relative;
+  top:20px;
   padding:2px;
   border: #fff 1px solid;
   background-color: #fff;
@@ -58,7 +55,7 @@ nav .col-4 ul {
   color:#000;
   font-size: 12px;
   text-transform: uppercase;
-  margin-right:100px;
+  margin-right: 150px;
 
 }
 
