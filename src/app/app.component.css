@@ -1,6 +1,7 @@
 
  nav {
   /* height:80px; */
+  margin-bottom:0px;
   font-size: 14px;
   font-family: verdana;
   background-color: #fff;
@@ -8,13 +9,13 @@
   box-shadow: 2px 2px 8px 0 rgba(45,35,35,.2);
 }
 
-/* nav .col-2, nav .col-6 {
+nav .col-2, nav .col-6 {
   position:relative;
-} */
+}
 
-/*nav .col-4 ul {
+nav .col-4 ul {
   margin-left:10px;
-} */
+}
 
 .top-row {
  height: 8px;
@@ -57,6 +58,7 @@
   color:#000;
   font-size: 12px;
   text-transform: uppercase;
+  margin-right:100px;
 
 }
 
