@@ -32,9 +32,9 @@ nav .col-4 ul {
 .mtn-logo {
   width:88px;
   height:88px;
-  position:relative;
   top:20px;
   padding:2px;
+  position:relative;
   border: #fff 1px solid;
   background-color: #fff;
   box-shadow: 2px 2px 8px 0 rgba(45,35,35,.2);
@@ -63,4 +63,13 @@ nav .col-4 ul {
    color:#ffcc00;
    display:inline-block;
 }
+
+
+ @media screen and (max-width: 991px) {
+  .navbar-collapse.collapse.show {
+    margin-top:20px
+  }
+}
+
+
 
